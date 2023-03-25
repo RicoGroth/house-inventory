@@ -1,14 +1,3 @@
-export interface Item {
-    readonly id: string;
-    readonly name: string;
-    readonly quantity: number;
-    readonly bestBeforeDate: BestBeforeDate;
-    readonly weight: number,
-    readonly unit: string,
-};
-
-
-/*
 Artikel:
     Oberkategorie (selbst definiert)
     Unterkategorie (selbst definiert)
@@ -42,4 +31,3 @@ Anmachen:
     - Suchfeld
     - Kalendar (heutiges Datum (monat/jahr))
     - Hinzufuegen
-*/
